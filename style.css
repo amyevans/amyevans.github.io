@@ -8,7 +8,7 @@
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	font-size: 12vw;
-	padding-top: 5vh;
+	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
 
@@ -88,10 +88,50 @@
 .port-thumb {
 	font-size: 3vh;
 	font-family: 'PT Sans';
+	padding: 5px;
 }
 
-.port-thumb a:hover {
+.links {
+	text-align: center;
+}
+
+.desc {
+	height: 95px;
+}
+
+.port-thumb .caption {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+.port-thumb a {
 	text-decoration: none;
+}
+
+.slick-track div {
+	outline:none;
+}
+
+.thumbnail {
+	outline: none!important;
+	background: rgb(245, 245, 245);
+}
+
+.port-thumb .thumbnail:hover {
+	border-color: #222;
+}
+
+.thumbnail .caption {
+	padding: 9px 9px 0 9px;
+}
+
+.desc, .links {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	padding: 0 9px 0 9px;
+	color: rgb(51,51,51);
 }
 
 /*** CONTACT ***/
