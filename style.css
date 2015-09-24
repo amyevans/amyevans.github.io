@@ -7,9 +7,9 @@
 .sec-heading {
 	font-family: 'Oswald', sans-serif;
 	color: white;
-	font-size: 12vw;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+	font-size: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 /*** BACKGROUND IMAGES FOR SECTIONS ***/
@@ -35,7 +35,7 @@
 
 /*** SOCIAL MEDIA BUTTONS ***/
 .social {
-	padding-bottom: 1vh;  
+	padding-bottom: 10px;  
 }
 
 .btn-social {
@@ -64,15 +64,15 @@
 
 .intro {
 	font-family: 'Oswald', sans-serif;
-	font-size: 4vw;
+	font-size: 30px;
 	color: #ddd;
 	text-shadow: 2px 1px #222;
 }
 
 .name {
 	color: white;
-	font-size: 12vw;
-	padding-top: 15vh;
+	font-size: 100px;
+	padding-top: 110px;
 }
 
 /*** ABOUT ***/
@@ -86,9 +86,21 @@
 
 /*** PORTFOLIO ***/
 .port-thumb {
-	font-size: 3vh;
-	font-family: 'PT Sans';
+	font-size: 22px;
 	padding: 5px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.port-thumb .caption {
+	text-align: center;
+	font-weight: bold;
+}
+
+.desc, .links {
+	font-size: 14px;
+	line-height: 19px;
+	padding: 0 9px 0 9px;
+	color: rgb(51,51,51);
 }
 
 .links {
@@ -97,12 +109,6 @@
 
 .desc {
 	height: 95px;
-}
-
-.port-thumb .caption {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	text-align: center;
-	font-weight: bold;
 }
 
 .port-thumb a {
@@ -126,13 +132,6 @@
 	padding: 9px 9px 0 9px;
 }
 
-.desc, .links {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	line-height: 19px;
-	padding: 0 9px 0 9px;
-	color: rgb(51,51,51);
-}
 
 /*** CONTACT ***/
 .circle {
